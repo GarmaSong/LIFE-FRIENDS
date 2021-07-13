@@ -48,7 +48,7 @@ export default class SignUp extends Component {
         }
       })
       .then(res => {
-        if (res.status === 201) {
+        if (res.ok) {
           //push to Login
           this.props.history.push('./Login');
         }
