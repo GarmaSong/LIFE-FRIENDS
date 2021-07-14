@@ -1,3 +1,21 @@
+## 📆 프로젝트 기간
+- 2021.05.10 ~ 2021.05.21 (약 2주)
+
+## 📌 Keywords
+- 자체프로젝트 | 커머셜사이트 | 로그인 | 회원가입 | 상세상품정보
+
+## 🔨 사용한 기술 스택
+- React | Sass | Github | Trello
+
+## 👪 팀원구성
+- Front-end: 김유림, 송가람, 안준현
+- Back-end: 신승호, 양영건
+
+## 🔗 프로젝트 링크
+[블로그](https://velog.io/@sgr2134/1%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D-Life-Friends) |
+[프로젝트 영상](https://www.youtube.com/watch?v=L71rxDzQI1c&t=126s) 
+
+
 ## 🧐 프로젝트 개요
 
 - 커머셜 사이트 중 하나인 'LINE FRIENDS'를 인생의 친구가 되는 아이템들을 판매하는 'LIFE FRIENDS' 사이트로 재구성, 실제 사이트와 동일하게 동작하도록 구현
