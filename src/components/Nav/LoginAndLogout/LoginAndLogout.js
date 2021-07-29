@@ -20,7 +20,7 @@ export class LoginAndLogout extends React.Component {
         }
       });
   };
-
+  //test
   changeLogout = () => {
     localStorage.clear();
   };
