@@ -3,11 +3,15 @@ import './Button.scss';
 
 export default class Input extends Component {
   render() {
-    const { text, type, loginValid } = this.props;
+    const { text, type, loginValid, goToMain } = this.props;
     return (
       <>
         {type === 'Login' && (
-          <button className="commonButton" disabled={!loginValid}>
+          <button
+            className="commonButton"
+            disabled={!loginValid}
+            onClick={goToMain}
+          >
             {text}
           </button>
         )}
