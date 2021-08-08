@@ -48,7 +48,10 @@ export default class Login extends Component {
           // push to main
           this.props.history.push('./');
         }
-      });
+      })
+      .catch(err =>
+        alert(err, '잠시 오류로 인하여 정상적으로 작동되지 않을 수 있습니다.')
+      );
   };
 
   handleInput = e => {

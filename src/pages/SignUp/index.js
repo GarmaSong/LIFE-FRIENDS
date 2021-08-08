@@ -52,7 +52,10 @@ export default class SignUp extends Component {
           //push to Login
           this.props.history.push('./Login');
         }
-      });
+      })
+      .catch(err =>
+        alert(err, '잠시 오류로 인하여 정상적으로 작동되지 않을 수 있습니다.')
+      );
   };
 
   handleInput = e => {
