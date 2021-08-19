@@ -46,6 +46,9 @@ export default class Login extends Component {
           // push to main
           this.props.history.push('./');
         }
+      })
+      .catch(() => {
+        alert('오류가 발생했습니다. 관리자에게 문의해주시길 바랍니다.');
       });
   };
 
