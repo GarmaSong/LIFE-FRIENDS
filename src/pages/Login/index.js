@@ -24,7 +24,6 @@ export default class Login extends Component {
       }),
     })
       .then(res => {
-        // eslint-disable-next-line default-case
         switch (res.status) {
           case 400:
             alert('아이디 또는 비밀번호를 입력해주세요');
@@ -35,8 +34,11 @@ export default class Login extends Component {
             break;
 
           case 200:
-            alert('sucess login');
+            alert('로그인에 성공했습니다.');
             return res.json();
+
+          default:
+            alert('잠시 후에 다시 이용해주세요.');
         }
       })
       .then(res => {
@@ -47,9 +49,9 @@ export default class Login extends Component {
           this.props.history.push('./');
         }
       })
-      .catch(() => {
-        alert('오류가 발생했습니다. 관리자에게 문의해주시길 바랍니다.');
-      });
+      .catch(err =>
+        alert(err, '잠시 오류로 인하여 정상적으로 작동되지 않을 수 있습니다.')
+      );
   };
 
   handleInput = e => {

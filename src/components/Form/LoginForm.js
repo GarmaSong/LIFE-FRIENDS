@@ -36,7 +36,12 @@ export default class LoginForm extends Component {
               error={input.error}
             />
           ))}
-          <Button text={text} type={type} loginValid={loginValid} />
+          <Button
+            text={text}
+            type={type}
+            loginValid={loginValid}
+            goToMain={goToMain}
+          />
         </form>
 
         <div className="loginOption">
